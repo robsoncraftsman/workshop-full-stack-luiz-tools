@@ -10,6 +10,11 @@ Site: https://www.luiztools.com.br/
 - Armazenar os dados com MySQL usando Sequelize para poupar tempo nas operações.
 - O passo a passo de como publicar o projeto do workshop na AWS.
 
+## Alterações
+
+- Configurado para usar es-lint + prettier
+- Usado interface no lugar de type
+
 ## Instrutores
 
 - Luiz Duarte (https://www.linkedin.com/in/luiztools/)
