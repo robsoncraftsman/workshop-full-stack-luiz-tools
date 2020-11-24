@@ -1,10 +1,10 @@
 import app from './app';
 import database from './database';
 
-database.sync({ force: true });
+database.sync();
 console.log('Database connection OK');
 
-const PORT = 3000;
+const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`);
 });
