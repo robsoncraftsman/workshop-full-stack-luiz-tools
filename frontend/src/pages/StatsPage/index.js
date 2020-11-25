@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from '../../components/Header';
 import { Container } from 'react-bootstrap';
-import ShortenerService from '../../services/shortenerService';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {StatsContainer, StatsRow, StatsBox, StatsBoxTitle} from './styles';
-import {parseISO, formatRelative} from 'date-fns';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { StatsContainer, StatsRow, StatsBox, StatsBoxTitle } from './styles';
+
+import { parseISO, formatRelative } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
+
+import ShortenerService from '../../services/shortenerService';
 
 class StatsPage extends React.Component {
   
@@ -39,7 +41,7 @@ class StatsPage extends React.Component {
   
 
   render() {
-    const {errorMessage, shortenedURL} = this.state;
+    const { errorMessage, shortenedURL } = this.state;
 
     return (
       <Container>
