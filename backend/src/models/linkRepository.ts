@@ -3,7 +3,13 @@ import { Link } from './link';
 
 const createLink = (linkModel: ILinkModel | null): Link | null => {
   if (!linkModel) return null;
-  return { id: linkModel.id, url: linkModel.url, code: linkModel.code, hits: linkModel.hits };
+  return {
+    id: linkModel.id,
+    url: linkModel.url,
+    code: linkModel.code,
+    hits: linkModel.hits,
+    updatedAt: linkModel.updatedAt,
+  };
 };
 
 const findByCode = async (code: string): Promise<Link | null> => {

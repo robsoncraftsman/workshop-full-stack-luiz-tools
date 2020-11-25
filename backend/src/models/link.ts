@@ -3,4 +3,5 @@ export interface Link {
   url: string;
   code?: string;
   hits?: number;
+  updatedAt?: Date;
 }
