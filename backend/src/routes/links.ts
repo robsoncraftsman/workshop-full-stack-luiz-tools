@@ -7,6 +7,6 @@ router.post('/links', linksController.postLink);
 
 router.get('/links/:code', linksController.hitLink);
 
-router.get('/links/:code/status', linksController.getLink);
+router.get('/links/:code/stats', linksController.getLink);
 
 export default router;
