@@ -20,6 +20,7 @@ Site: https://www.luiztools.com.br/
 - Configurado para usar es-lint + prettier
 - Usado interface no lugar de type
 - Utilizado ts-node + nodemon
+- Utilizado pacote sass (DartSass) no lugar do node-sass
 
 ## Para rodar o projeto
 

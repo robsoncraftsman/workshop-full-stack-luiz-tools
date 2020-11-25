@@ -1,4 +1,6 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 class HomePage extends React.Component {
   /*
@@ -9,7 +11,10 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <p>Home</p>
+      <Container>
+        <FontAwesomeIcon icon="check-square"/>
+        Home
+      </Container>
     )
   }
 }
